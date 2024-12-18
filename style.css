@@ -1,0 +1,39 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  background-color: aliceblue;
+}
+caption {
+  color: red;
+  text-align: center;
+  
+}
+span {
+  color: blue;
+}
+table {
+  width: 40%;
+  border: 3px red solid;
+}
+th,
+td {
+  border: 2px rgb(71, 71, 207) solid;
+  text-align: center;
+}
+thead {
+  background-color: antiquewhite;
+}
+tbody tr:nth-child(2n+1) {
+  background-color: burlywood;
+}
+tbody tr:nth-child(2n) {
+  background-color: rgb(213, 181, 181);
+}
+
+td:nth-child(1) {
+  background-color: aqua;
+}
+
+tfoot {
+  background-color: rgb(239, 77, 77);
+}
